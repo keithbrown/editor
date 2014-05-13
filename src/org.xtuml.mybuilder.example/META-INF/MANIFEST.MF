@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Keith Example
+Bundle-SymbolicName: org.xtuml.mybuilder.example; singleton:=true
+Bundle-Version: 1.0.0.1
+Bundle-Activator: org.xtuml.mybuilder.example.Activator
+Require-Bundle: org.eclipse.ui,
+ org.eclipse.core.runtime,
+ org.eclipse.core.resources
+Bundle-ActivationPolicy: lazy
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
